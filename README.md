@@ -2,10 +2,6 @@
 
 My personal macOS dotfiles and other config.
 
-## About
-
-- macOS config in `./chezmoiscripts/run_onchange_after_configure-macos.sh.tmpl`
-
 ## Installing
 
 1. Install [chezmoi](https://www.chezmoi.io) with `brew install chezmoi`
