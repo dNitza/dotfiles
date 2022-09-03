@@ -1,0 +1,57 @@
+{{ if (eq .chezmoi.os "darwin") -}}
+#!/bin/bash
+
+set -eufo pipefail
+
+# Disable dock animations
+defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-delay -float 0
+killall Dock
+
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Disable transparency
+defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
+
+# Disable window animation
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
+# Finder: show hidden files by default
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+# Finder: set window title to full POSIX file path of current folder
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+###############################################################################
+# Mail                                                                        #
+###############################################################################
+
+# Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+###############################################################################
+# LaunchBar                                                                   #
+###############################################################################
+
+# Set calculator hot key to Cmd-Shift-=
+defaults write at.obdev.LaunchBar CalculatorHotKey -string "768@24"
+defaults write at.obdev.LaunchBar CalculatorHotKeyEnabled -bool true
+
+# Set Fish as default shell
+if [ "$SHELL" != "/usr/local/bin/fish" ]
+then
+  chsh -s /usr/local/bin/fish tim
+fi
+
+{{ end -}}

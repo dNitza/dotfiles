@@ -8,7 +8,6 @@ brew 'ffmpeg'
 brew 'fish'
 brew 'fx'
 brew 'fzf'
-brew 'gdal'
 brew 'gh'
 brew 'git'
 brew 'git-delta'
@@ -33,6 +32,7 @@ cask_args appdir: "/Applications"
 
 cask "1password"
 cask "1password-cli"
+cask "audio-hijack"
 cask "caffeine"
 cask "discord"
 cask "fantastical"
@@ -47,6 +47,8 @@ cask "paw"
 cask "pop"
 cask "postgres"
 cask "postico"
+cask "rubymine"
+cask "soundsource"
 cask "tower"
 cask "transmit"
 cask "visual-studio-code"
