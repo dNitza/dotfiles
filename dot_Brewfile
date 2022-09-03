@@ -1,0 +1,61 @@
+brew 'adns'
+brew 'asdf'
+brew 'bat'
+brew 'broot'
+brew 'chezmoi'
+brew 'exa'
+brew 'ffmpeg'
+brew 'fish'
+brew 'fx'
+brew 'fzf'
+brew 'gdal'
+brew 'gh'
+brew 'git'
+brew 'git-delta'
+brew 'glow'
+brew 'gnupg'
+brew 'jq'
+brew 'moreutils'
+brew 'overmind'
+brew 'ripgrep'
+brew 'rtmpdump'
+brew 'switchaudio-osx'
+brew 'tcl-tk'
+brew 'tig'
+brew 'v8@3.15'
+brew 'vim'
+brew 'wget'
+brew 'yarn'
+brew 'youtube-dl'
+brew 'z'
+
+cask_args appdir: "/Applications"
+
+cask "1password"
+cask "1password-cli"
+cask "caffeine"
+cask "discord"
+cask "fantastical"
+cask "firefox"
+cask "handbrake"
+cask "hazel"
+cask "iterm2"
+cask "launchbar"
+cask "numi"
+cask "openemu"
+cask "paw"
+cask "pop"
+cask "postgres"
+cask "postico"
+cask "tower"
+cask "transmit"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoom"
+
+mas "1password for Safari", id: 1569813296
+mas "Reeder", id: 880001334
+mas "TaskPaper", id: 1090940630
+mas "Twitterrific", id: 1289378661
+mas "Pixelmator Pro", id: 1289583905
+mas "Poolside FM", id: 1514817810

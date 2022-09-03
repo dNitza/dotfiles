@@ -1,0 +1,16 @@
+syntax on
+filetype plugin indent on
+
+syntax enable
+set cursorline
+set incsearch
+set hlsearch
+set number
+
+set termguicolors
+colorscheme argonaut
+
+set tabstop=2
+set expandtab
+set shiftwidth=2
+
