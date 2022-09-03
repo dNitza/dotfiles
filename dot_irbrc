@@ -1,0 +1,9 @@
+require 'irb'
+require 'irb/completion'
+require 'wirble'
+
+#Wirble.init and Wirble.colorize and maybe more afterwards
+%w{init colorize}.each { |str| Wirble.send(str) }
+
+IRB.conf[:SAVE_HISTORY] = 200
+IRB.conf[:HISTORiY_FILE] = "#{ENV['HOME']}/.irb-save-history"

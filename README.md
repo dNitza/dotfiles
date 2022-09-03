@@ -30,5 +30,6 @@ This repo is an attempt to save me from myself and provides a single source of t
 2. `chezmoi init dNitza`
 
 ## Thanks to
+- [Tom Payne](https://github.com/twpayne) for [chezmoi](https://github.com/twpayne/chezmoi/)
+- Tim Riley for his [dotfiles](https://github.com/timriley/dotfiles)
 - Thoughbot for [rcm](https://github.com/thoughtbot/rcm) (the tool I previously used to manage dotfiles)
-- To Tim Riley for his [dotfiles](https://github.com/timriley/dotfiles)
