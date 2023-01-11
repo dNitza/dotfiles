@@ -1,6 +1,6 @@
 # Dotfiles
 
-My macOS dotfiles, and otherthings
+My macOS dotfiles, and other things
 
 ## About
 
