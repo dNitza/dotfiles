@@ -19,6 +19,7 @@ brew 'overmind'
 brew 'ripgrep'
 brew 'rtmpdump'
 brew 'switchaudio-osx'
+brew 'taskpaper'
 brew 'tcl-tk'
 brew 'tig'
 brew 'v8@3.15'
@@ -44,20 +45,18 @@ cask "launchbar"
 cask "numi"
 cask "openemu"
 cask "paw"
-cask "pop"
 cask "postgres"
 cask "postico"
 cask "rubymine"
 cask "soundsource"
 cask "tower"
 cask "transmit"
+cask "twitterrific"
 cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
 
 mas "1password for Safari", id: 1569813296
 mas "Reeder", id: 880001334
-mas "TaskPaper", id: 1090940630
-mas "Twitterrific", id: 1289378661
 mas "Pixelmator Pro", id: 1289583905
 mas "Poolside FM", id: 1514817810
