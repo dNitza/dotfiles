@@ -10,5 +10,9 @@ end
 set -Ux EDITOR vim
 
 source ~/.asdf/asdf.fish
+
+set -Ux FZF_DEFAULT_COMMAND 'rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"';
+set -gx GPG_TTY (tty)
+
 set -gx PATH "$HOME/.cargo/bin" $PATH;
 set -gx PATH "$HOME/.yarn/bin" $PATH;

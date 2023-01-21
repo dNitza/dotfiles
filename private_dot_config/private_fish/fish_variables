@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:vim
+SETUVAR --export FZF_DEFAULT_COMMAND:rg\x20\x2d\x2dfiles\x20\x2d\x2dfollow\x20\x2d\x2dno\x2dignore\x2dvcs\x20\x2d\x2dhidden\x20\x2dg\x20\x22\x21\x7bnode_modules/\x2a\x2c\x2egit/\x2a\x7d\x22
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/danielnitsikopoulos/\x2elocal/share/z/data
@@ -16,17 +17,29 @@ SETUVAR _fisher_laughedelic_2F_pisces_files:/Users/danielnitsikopoulos/\x2econfi
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_theme_2D_l_files:/Users/danielnitsikopoulos/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/danielnitsikopoulos/\x2econfig/fish/functions/fish_right_prompt\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/theme\x2dl\x1ejorgebucaran/hydro\x1etuvistavie/fish\x2dssh\x2dagent\x1elaughedelic/pisces\x1eedc/bass\x1eandreiborisov/sponge
 SETUVAR _fisher_tuvistavie_2F_fish_2D_ssh_2D_agent_files:/Users/danielnitsikopoulos/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e/Users/danielnitsikopoulos/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e/Users/danielnitsikopoulos/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
+SETUVAR _hydro_git_1016:main\u2022\x20
+SETUVAR _hydro_git_1857:main\u2022\x20
+SETUVAR _hydro_git_1916:main\u2022\x20
 SETUVAR _hydro_git_1936:main\u2022\x20\u21911\x20
 SETUVAR _hydro_git_2461:master\u2022\x20
+SETUVAR _hydro_git_28694:main\u2022\x20
 SETUVAR _hydro_git_2882:main\u2022\x20\u21911\x20
 SETUVAR _hydro_git_32724:main\u2022\x20\u21911\x20
 SETUVAR _hydro_git_34428:main\u2022\x20\u21911\x20
+SETUVAR _hydro_git_35705:main\u2022\x20
+SETUVAR _hydro_git_4897:main\u2022\x20
 SETUVAR _hydro_git_50417:master\u2022\x20
 SETUVAR _hydro_git_56273:\x1d
+SETUVAR _hydro_git_58159:main\u2022\x20
 SETUVAR _hydro_git_58933:main\u2022\x20\u21911\x20
 SETUVAR _hydro_git_59052:main\u2022\x20\u21911\x20
 SETUVAR _hydro_git_59187:main\u2022\x20\u21911\x20
+SETUVAR _hydro_git_60657:main\u2022\x20
+SETUVAR _hydro_git_63119:main\u2022\x20
+SETUVAR _hydro_git_63170:main\u2022\x20
 SETUVAR _hydro_git_723:master\u2022\x20
+SETUVAR _hydro_git_82489:main\u2022\x20
+SETUVAR _hydro_git_82662:main\u2022\x20
 SETUVAR _hydro_git_836:\x1d
 SETUVAR _hydro_git_90728:main\u2022\x20
 SETUVAR _hydro_git_92076:main\u2022\x20\u21911\x20

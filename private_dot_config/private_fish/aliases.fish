@@ -6,6 +6,8 @@ alias ll='exa -l'
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
 alias dbm0='bundle exec rake db:migrate VERSION=0'
+alias br='bundle exec rspec'
+alias std='bundle exec standardrb'
 
 alias hdm='hanami db migrate'
 
