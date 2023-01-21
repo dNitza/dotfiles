@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
@@ -13,4 +14,15 @@ colorscheme argonaut
 set tabstop=2
 set expandtab
 set shiftwidth=2
+
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+" Linting
+let g:ale_linters = {'ruby': ['standardrb']}
+let g:ale_fixers = {'ruby': ['standardrb']}
+let g:ale_fix_on_save = 1
 
