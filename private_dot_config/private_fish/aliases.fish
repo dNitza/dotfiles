@@ -15,3 +15,7 @@ alias hdm='hanami db migrate'
 alias fix_audio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' |awk '{print $1}'`"
 alias fix_dns="sudo killall -HUP mDNSResponder && dscacheutil -flushcache"
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+# Kitty
+alias s="kitten ssh"
+alias upgrade_kitty="curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin"
