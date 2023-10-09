@@ -1,5 +1,7 @@
 source ~/.config/fish/aliases.fish
 
+starship init fish | source
+
 function fish_user_key_bindings
   # Thanks, https://github.com/fish-shell/fish-shell/issues/905#issuecomment-20559486
   bind \cc 'echo; commandline ""; commandline -f repaint'
