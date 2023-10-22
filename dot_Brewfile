@@ -45,7 +45,6 @@ cask "launchbar"
 cask "numi"
 cask "obsidian"
 cask "openemu"
-cask "paw"
 cask "postgres"
 cask "postico"
 cask "rubymine"
@@ -54,9 +53,7 @@ cask "tower"
 cask "transmit"
 cask "visual-studio-code"
 cask "vlc"
-cask "zoom"
 
 mas "1password for Safari", id: 1569813296
-mas "Reeder", id: 880001334
 mas "Pixelmator Pro", id: 1289583905
 mas "Poolside FM", id: 1514817810
