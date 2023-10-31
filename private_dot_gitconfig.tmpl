@@ -15,11 +15,13 @@
 	prompt = false
 [init]
 	defaultBranch = main
+{{ if .buildkite -}}
 [gpg]
 	format = ssh
 [gpg "ssh"]
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 [commit]
 	gpgsign = true
+{{- end }}
 [credential]
   helper = osxkeychain
