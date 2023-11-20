@@ -49,9 +49,10 @@ defaults write at.obdev.LaunchBar CalculatorHotKey -string "768@24"
 defaults write at.obdev.LaunchBar CalculatorHotKeyEnabled -bool true
 
 # Set Fish as default shell
+echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
 if [ "$SHELL" != "/usr/local/bin/fish" ]
 then
-  chsh -s /usr/local/bin/fish tim
+  chsh -s /usr/local/bin/fish daniel 
 fi
 
 {{ end -}}
