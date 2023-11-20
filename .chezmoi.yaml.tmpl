@@ -19,3 +19,8 @@
 {{- else -}}
 {{-   $work = true -}}
 {{- end -}}
+
+data:
+  hostname: {{ $hostname | quote }}
+  personal: {{ $personal }}
+  email: {{ $email | quote }}
