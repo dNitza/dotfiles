@@ -2,4 +2,20 @@
 {{- $personal := false -}}{{/* true if this is my personal machine */}}
 {{- $work := false -}}{{/* true if this is my work machine */}}
 
-{{- $email := promptString "" -}}
+{{- $email := promptString "Personal email" -}}
+
+{{- $hostname := .chezmoi.hostname -}}
+{{- if eq .chezmoi.os "darwin" -}}
+{{-   $computerName := output "scutil" "--get" "ComputerName" | trim -}}
+{{-   if eq $computerName "Daniel’s MacBook Pro" -}}
+{{-     $hostname = "dans-mbp" -}}
+{{-   else -}}
+{{-     $hostname = $computerName -}}
+{{-   end -}}
+{{- end -}}
+
+{{- if eq $hostname "dans-mbp" -}}
+{{-   $personal = true -}}
+{{- else -}}
+{{-   $work = true -}}
+{{- end -}}
